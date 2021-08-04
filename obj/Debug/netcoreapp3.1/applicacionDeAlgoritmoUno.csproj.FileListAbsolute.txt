@@ -1,0 +1,15 @@
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.exe
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.deps.json
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.runtimeconfig.json
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.runtimeconfig.dev.json
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.dll
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\bin\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.pdb
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.csprojAssemblyReference.cache
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.Form1.resources
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.csproj.GenerateResource.cache
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.AssemblyInfoInputs.cache
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.AssemblyInfo.cs
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.csproj.CoreCompileInputs.cache
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.dll
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.pdb
+C:\Users\Michelle Calderon\source\repos\applicacionDeAlgoritmoUno\applicacionDeAlgoritmoUno\obj\Debug\netcoreapp3.1\applicacionDeAlgoritmoUno.genruntimeconfig.cache
