@@ -134,12 +134,13 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnRead.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRead.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(274, 12);
+            this.btnRead.Location = new System.Drawing.Point(273, 12);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(115, 29);
             this.btnRead.TabIndex = 6;
             this.btnRead.Text = "Buscar";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnDelete
             // 
@@ -151,6 +152,7 @@ namespace applicacionDeAlgoritmoUno
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Eliminar";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnCreate
             // 
@@ -168,12 +170,13 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(481, 12);
+            this.btnUpdate.Location = new System.Drawing.Point(480, 12);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(152, 29);
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = "Actualizar";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -249,7 +252,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.78947F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.21053F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 257F));
             this.tableLayoutPanel3.Controls.Add(this.btnCreate, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnRead, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 2, 0);
@@ -327,6 +330,7 @@ namespace applicacionDeAlgoritmoUno
             this.btnShow.TabIndex = 10;
             this.btnShow.Text = "Mostrar";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // panel2
             // 

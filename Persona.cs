@@ -5,7 +5,7 @@ using System.Text;
 namespace applicacionDeAlgoritmoUno
 {
     public class Persona
-    {
+    { 
         public int id;
         public int age;
         public string name;
