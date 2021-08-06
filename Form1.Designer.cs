@@ -29,84 +29,84 @@ namespace applicacionDeAlgoritmoUno
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbQuantity = new System.Windows.Forms.Label();
+            this.textQuantity = new System.Windows.Forms.TextBox();
+            this.btnSet = new System.Windows.Forms.Button();
+            this.lbId = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.lbAge = new System.Windows.Forms.Label();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textId = new System.Windows.Forms.TextBox();
+            this.textAge = new System.Windows.Forms.TextBox();
+            this.lbName = new System.Windows.Forms.Label();
+            this.textName = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dGViewRegister = new System.Windows.Forms.DataGridView();
             this.showId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGViewRegister)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lbQuantity
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(59, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cantidad de elementos";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbQuantity.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbQuantity.AutoSize = true;
+            this.lbQuantity.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbQuantity.ForeColor = System.Drawing.Color.Black;
+            this.lbQuantity.Location = new System.Drawing.Point(59, 6);
+            this.lbQuantity.Name = "lbQuantity";
+            this.lbQuantity.Size = new System.Drawing.Size(165, 40);
+            this.lbQuantity.TabIndex = 0;
+            this.lbQuantity.Text = "Cantidad de elementos";
             // 
-            // textBox1
+            // textQuantity
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textQuantity.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(286, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(333, 27);
-            this.textBox1.TabIndex = 1;
+            this.textQuantity.Location = new System.Drawing.Point(286, 3);
+            this.textQuantity.Name = "textQuantity";
+            this.textQuantity.Size = new System.Drawing.Size(333, 27);
+            this.textQuantity.TabIndex = 1;
             // 
-            // button1
+            // btnSet
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(697, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Establecer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSet.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSet.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSet.Location = new System.Drawing.Point(697, 11);
+            this.btnSet.Name = "btnSet";
+            this.btnSet.Size = new System.Drawing.Size(162, 29);
+            this.btnSet.TabIndex = 2;
+            this.btnSet.Text = "Establecer";
+            this.btnSet.UseVisualStyleBackColor = true;
+            this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
             // 
-            // label2
+            // lbId
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(124, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Id";
+            this.lbId.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbId.AutoSize = true;
+            this.lbId.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbId.ForeColor = System.Drawing.Color.Black;
+            this.lbId.Location = new System.Drawing.Point(124, 68);
+            this.lbId.Name = "lbId";
+            this.lbId.Size = new System.Drawing.Size(35, 20);
+            this.lbId.TabIndex = 3;
+            this.lbId.Text = "Id";
             // 
             // label3
             // 
@@ -118,62 +118,62 @@ namespace applicacionDeAlgoritmoUno
             this.label3.TabIndex = 4;
             this.label3.Text = "Nombre";
             // 
-            // label4
+            // lbAge
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(747, 68);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Edad";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.lbAge.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbAge.AutoSize = true;
+            this.lbAge.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbAge.ForeColor = System.Drawing.Color.Black;
+            this.lbAge.Location = new System.Drawing.Point(747, 68);
+            this.lbAge.Name = "lbAge";
+            this.lbAge.Size = new System.Drawing.Size(61, 20);
+            this.lbAge.TabIndex = 5;
+            this.lbAge.Text = "Edad";
             // 
-            // button2
+            // btnRead
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(277, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 29);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Buscar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRead.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnRead.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRead.Location = new System.Drawing.Point(274, 12);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(115, 29);
+            this.btnRead.TabIndex = 6;
+            this.btnRead.Text = "Buscar";
+            this.btnRead.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnDelete
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(745, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 29);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDelete.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDelete.Location = new System.Drawing.Point(743, 12);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(124, 29);
+            this.btnDelete.TabIndex = 7;
+            this.btnDelete.Text = "Eliminar";
+            this.btnDelete.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnCreate
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(47, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 29);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Insertar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnCreate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCreate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCreate.Location = new System.Drawing.Point(46, 12);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(134, 29);
+            this.btnCreate.TabIndex = 8;
+            this.btnCreate.Text = "Insertar";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
-            // button5
+            // btnUpdate
             // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(485, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(152, 29);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Actualizar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUpdate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnUpdate.Location = new System.Drawing.Point(481, 12);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(152, 29);
+            this.btnUpdate.TabIndex = 9;
+            this.btnUpdate.Text = "Actualizar";
+            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
             // 
@@ -182,15 +182,15 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.31267F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.354F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Controls.Add(this.textBox3, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox4, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox2, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.textId, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textAge, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.lbQuantity, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnSet, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.lbId, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lbAge, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lbName, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.textName, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textQuantity, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(35, 78);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -200,46 +200,46 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel2.Size = new System.Drawing.Size(934, 157);
             this.tableLayoutPanel2.TabIndex = 16;
             // 
-            // textBox3
+            // textId
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(3, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 27);
-            this.textBox3.TabIndex = 16;
+            this.textId.Location = new System.Drawing.Point(3, 107);
+            this.textId.Name = "textId";
+            this.textId.Size = new System.Drawing.Size(277, 27);
+            this.textId.TabIndex = 16;
             // 
-            // textBox4
+            // textAge
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textAge.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(625, 107);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(306, 27);
-            this.textBox4.TabIndex = 15;
+            this.textAge.Location = new System.Drawing.Point(625, 107);
+            this.textAge.Name = "textAge";
+            this.textAge.Size = new System.Drawing.Size(306, 27);
+            this.textAge.TabIndex = 15;
             // 
-            // label7
+            // lbName
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(409, 68);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 20);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Nombre";
+            this.lbName.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbName.AutoSize = true;
+            this.lbName.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbName.Location = new System.Drawing.Point(409, 68);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(87, 20);
+            this.lbName.TabIndex = 13;
+            this.lbName.Text = "Nombre";
             // 
-            // textBox2
+            // textName
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(286, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(333, 27);
-            this.textBox2.TabIndex = 14;
+            this.textName.Location = new System.Drawing.Point(286, 107);
+            this.textName.Name = "textName";
+            this.textName.Size = new System.Drawing.Size(333, 27);
+            this.textName.TabIndex = 14;
             // 
             // tableLayoutPanel3
             // 
@@ -249,11 +249,11 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.78947F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.21053F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 252F));
-            this.tableLayoutPanel3.Controls.Add(this.button4, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button2, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button5, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button3, 3, 0);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
+            this.tableLayoutPanel3.Controls.Add(this.btnCreate, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btnRead, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btnDelete, 3, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(35, 241);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
@@ -263,7 +263,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.dGViewRegister);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
@@ -274,21 +274,21 @@ namespace applicacionDeAlgoritmoUno
             this.panel1.Size = new System.Drawing.Size(995, 524);
             this.panel1.TabIndex = 19;
             // 
-            // dataGridView1
+            // dGViewRegister
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dGViewRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dGViewRegister.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGViewRegister.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGViewRegister.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.showId,
             this.showName,
             this.showAge});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 367);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(983, 145);
-            this.dataGridView1.TabIndex = 20;
+            this.dGViewRegister.Location = new System.Drawing.Point(0, 367);
+            this.dGViewRegister.Name = "dGViewRegister";
+            this.dGViewRegister.RowHeadersWidth = 51;
+            this.dGViewRegister.RowTemplate.Height = 29;
+            this.dGViewRegister.Size = new System.Drawing.Size(995, 157);
+            this.dGViewRegister.TabIndex = 20;
             // 
             // showId
             // 
@@ -311,41 +311,41 @@ namespace applicacionDeAlgoritmoUno
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.button6);
+            this.panel3.Controls.Add(this.btnShow);
             this.panel3.Location = new System.Drawing.Point(35, 315);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(934, 32);
             this.panel3.TabIndex = 19;
             // 
-            // button6
+            // btnShow
             // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(391, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(152, 29);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Mostrar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnShow.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnShow.Location = new System.Drawing.Point(391, 2);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(152, 29);
+            this.btnShow.TabIndex = 10;
+            this.btnShow.Text = "Mostrar";
+            this.btnShow.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.lbTitle);
             this.panel2.Location = new System.Drawing.Point(35, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(934, 41);
             this.panel2.TabIndex = 18;
             // 
-            // label5
+            // lbTitle
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(221, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(438, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Ejemplos de Arreglos Desordenados";
+            this.lbTitle.AutoSize = true;
+            this.lbTitle.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTitle.Location = new System.Drawing.Point(221, 10);
+            this.lbTitle.Name = "lbTitle";
+            this.lbTitle.Size = new System.Drawing.Size(438, 20);
+            this.lbTitle.TabIndex = 0;
+            this.lbTitle.Text = "Ejemplos de Arreglos Desordenados";
             // 
             // Form1
             // 
@@ -357,12 +357,12 @@ namespace applicacionDeAlgoritmoUno
             this.Controls.Add(this.label3);
             this.MinimumSize = new System.Drawing.Size(1013, 571);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGViewRegister)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -373,28 +373,28 @@ namespace applicacionDeAlgoritmoUno
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbQuantity;
+        private System.Windows.Forms.TextBox textQuantity;
+        private System.Windows.Forms.Button btnSet;
+        private System.Windows.Forms.Label lbId;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label lbAge;
+        private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textId;
+        private System.Windows.Forms.TextBox textAge;
+        private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.DataGridView dGViewRegister;
         private System.Windows.Forms.DataGridViewTextBoxColumn showId;
         private System.Windows.Forms.DataGridViewTextBoxColumn showName;
         private System.Windows.Forms.DataGridViewTextBoxColumn showAge;
