@@ -46,7 +46,7 @@ namespace applicacionDeAlgoritmoUno
             this.textName = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dGViewRegister = new System.Windows.Forms.DataGridView();
+            this.dtgvRegister = new System.Windows.Forms.DataGridView();
             this.showId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,7 +57,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dGViewRegister)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -134,7 +134,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnRead.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRead.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(273, 12);
+            this.btnRead.Location = new System.Drawing.Point(268, 12);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(115, 29);
             this.btnRead.TabIndex = 6;
@@ -146,7 +146,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDelete.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDelete.Location = new System.Drawing.Point(743, 12);
+            this.btnDelete.Location = new System.Drawing.Point(739, 12);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(124, 29);
             this.btnDelete.TabIndex = 7;
@@ -158,7 +158,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnCreate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCreate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCreate.Location = new System.Drawing.Point(46, 12);
+            this.btnCreate.Location = new System.Drawing.Point(44, 12);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(134, 29);
             this.btnCreate.TabIndex = 8;
@@ -170,7 +170,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(480, 12);
+            this.btnUpdate.Location = new System.Drawing.Point(473, 12);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(152, 29);
             this.btnUpdate.TabIndex = 9;
@@ -252,7 +252,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.78947F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.21053F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 257F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 264F));
             this.tableLayoutPanel3.Controls.Add(this.btnCreate, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnRead, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 2, 0);
@@ -266,7 +266,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dGViewRegister);
+            this.panel1.Controls.Add(this.dtgvRegister);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
@@ -277,21 +277,22 @@ namespace applicacionDeAlgoritmoUno
             this.panel1.Size = new System.Drawing.Size(995, 524);
             this.panel1.TabIndex = 19;
             // 
-            // dGViewRegister
+            // dtgvRegister
             // 
-            this.dGViewRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.dGViewRegister.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dGViewRegister.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGViewRegister.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgvRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dtgvRegister.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvRegister.BackgroundColor = System.Drawing.Color.Silver;
+            this.dtgvRegister.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvRegister.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.showId,
             this.showName,
             this.showAge});
-            this.dGViewRegister.Location = new System.Drawing.Point(0, 367);
-            this.dGViewRegister.Name = "dGViewRegister";
-            this.dGViewRegister.RowHeadersWidth = 51;
-            this.dGViewRegister.RowTemplate.Height = 29;
-            this.dGViewRegister.Size = new System.Drawing.Size(995, 157);
-            this.dGViewRegister.TabIndex = 20;
+            this.dtgvRegister.Location = new System.Drawing.Point(0, 367);
+            this.dtgvRegister.Name = "dtgvRegister";
+            this.dtgvRegister.RowHeadersWidth = 51;
+            this.dtgvRegister.RowTemplate.Height = 29;
+            this.dtgvRegister.Size = new System.Drawing.Size(995, 157);
+            this.dtgvRegister.TabIndex = 20;
             // 
             // showId
             // 
@@ -366,7 +367,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dGViewRegister)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -398,7 +399,7 @@ namespace applicacionDeAlgoritmoUno
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnShow;
-        private System.Windows.Forms.DataGridView dGViewRegister;
+        private System.Windows.Forms.DataGridView dtgvRegister;
         private System.Windows.Forms.DataGridViewTextBoxColumn showId;
         private System.Windows.Forms.DataGridViewTextBoxColumn showName;
         private System.Windows.Forms.DataGridViewTextBoxColumn showAge;

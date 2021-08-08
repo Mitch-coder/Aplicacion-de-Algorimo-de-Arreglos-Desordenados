@@ -13,7 +13,7 @@ namespace applicacionDeAlgoritmoUno
     public partial class Form1 : Form
     {
         Persona[] persona;
-        int size,position,i,x;
+        int size,position=0,i,x;
         public Form1()
         {
             InitializeComponent();
@@ -57,7 +57,13 @@ namespace applicacionDeAlgoritmoUno
         }
         private void btnShow_Click(object sender, EventArgs e)
         {
-            
+            for(int i =0;i<position;i++)
+            {
+                dtgvRegister.Rows.Add();
+                dtgvRegister.Rows[i].Cells[0].Value = persona[i].id;
+                dtgvRegister.Rows[i].Cells[1].Value = persona[i].name;
+                dtgvRegister.Rows[i].Cells[2].Value = persona[i].age;
+            }
         }
         // funciones para validar espacio y buscar
         public void insert()
