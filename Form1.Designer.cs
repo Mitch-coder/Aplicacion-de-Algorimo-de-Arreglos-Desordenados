@@ -266,6 +266,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.dtgvRegister);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
