@@ -23,20 +23,16 @@ namespace applicacionDeAlgoritmoUno
         {
             try
             {
+                validateNumbers(textQuantity.Text, "Cantidad de elementos");
                 size = int.Parse(textQuantity.Text);
-                if (size > 0)
-                {
-                    arrayPersona = new Persona[size];
-                    position = 0;
-                    clearText(1);
-                    dtgvRegister.Rows.Clear();
-                }
-                else
-                    MessageBox.Show("La cantidad de elementos debe ser un entero positivo");
+                arrayPersona = new Persona[size];
+                position = 0;
+                clearText(1);
+                dtgvRegister.Rows.Clear();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show($"El valor \"{textQuantity.Text}\" es invalido!\nLa cantidad a establcer debe ser un entero positivo");
+                MessageBox.Show(ex.Message);
             } 
         }
         private void btnCreate_Click(object sender, EventArgs e)
@@ -59,7 +55,7 @@ namespace applicacionDeAlgoritmoUno
             {
                 try
                 {
-                    validateDataUser(out int id, textName.Text, out int age);
+                    validateDataUser( textName.Text, out int age);
                     arrayPersona[i].name = textName.Text;
                     arrayPersona[i].age = int.Parse(textAge.Text);
                     MessageBox.Show("La persona con Id = " + x + " se actualizo");
@@ -85,10 +81,8 @@ namespace applicacionDeAlgoritmoUno
         }
         private void btnShow_Click(object sender, EventArgs e)
         {
-            if (size <= 0)
-            {
+            if (position<=0)
                 MessageBox.Show("El registro se encuentra vacio");
-            }
             else
             {
                 dtgvRegister.Rows.Clear();
@@ -108,7 +102,7 @@ namespace applicacionDeAlgoritmoUno
             {
                 try
                 {
-                    validateDataUser(out int id, textName.Text, out int age);
+                    validateDataUser(textName.Text, out int age);
                     objPersona.Create(int.Parse(textId.Text), textName.Text, int.Parse(textAge.Text));
                     arrayPersona[position] = objPersona;
                     position++;
@@ -132,15 +126,8 @@ namespace applicacionDeAlgoritmoUno
             i = 0;
             try
             {
-                if (string.IsNullOrEmpty(textId.Text))
-                {
-                    throw new Exception("El id es requerido");
-                }
-                if (!int.TryParse(textId.Text, out int exi))
-                {
-                    throw new Exception($"El valor \"{textId.Text}\" es invalido!");
-                }
-                x = exi;
+                validateNumbers(textId.Text, "id");
+                x = int.Parse(textId.Text);
                 while (i < position && x != arrayPersona[i].id)
                 {
                     i++;
@@ -169,29 +156,34 @@ namespace applicacionDeAlgoritmoUno
             else
                 textQuantity.Focus();
         }
-        private void validateDataUser(out int id, string name, out int age)
+        private void validateDataUser( string name, out int age)
         {
-            //validacion de id 
-            if (!int.TryParse(textId.Text, out int exi))
-            {
-                throw new Exception($"El valor del Id: \"{textId.Text}\" es invalido!");
-            }
-            id = exi;
+            //validacion id
+            validateNumbers(textId.Text, "id");
             //validacion de nombre
             if (string.IsNullOrWhiteSpace(name))
-            {
                 throw new Exception("El nombre es requerido!");
-            }
             //validacion de edad
+            if (string.IsNullOrWhiteSpace(textAge.Text))
+                throw new Exception("La edad es requerida");
             if (!int.TryParse(textAge.Text, out int exi2))
-            {
                 throw new Exception($"El valor de la edad: \"{textAge.Text}\" es invalido!");
-            }
             age = exi2;
             if (age>100||age<0)
                 throw new Exception("La edad esta fuera del rango establecido");
         }
-        /*private void validatePositiveNumbers()*/
-
+        private void validateNumbers(string text,string field)
+        {
+            if (string.IsNullOrEmpty(text))
+                throw new Exception($"El campo {field} es requerido!");
+            if (!int.TryParse(text, out int exi))
+                throw new Exception($"El valor: \"{text}\" en {field} es invalido!");
+            else
+            {
+                if (field== "Cantidad de elementos" && exi<=0)
+                    throw new Exception("Solo puede establecer una cantidad positiva");
+            }
+   
+        }
     }
 }

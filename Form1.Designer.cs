@@ -134,7 +134,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnRead.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRead.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(256, 12);
+            this.btnRead.Location = new System.Drawing.Point(253, 12);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(115, 29);
             this.btnRead.TabIndex = 6;
@@ -146,7 +146,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDelete.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDelete.Location = new System.Drawing.Point(732, 12);
+            this.btnDelete.Location = new System.Drawing.Point(729, 12);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(124, 29);
             this.btnDelete.TabIndex = 7;
@@ -158,7 +158,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnCreate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCreate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCreate.Location = new System.Drawing.Point(40, 12);
+            this.btnCreate.Location = new System.Drawing.Point(39, 12);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(134, 29);
             this.btnCreate.TabIndex = 8;
@@ -170,7 +170,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(458, 12);
+            this.btnUpdate.Location = new System.Drawing.Point(453, 12);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(152, 29);
             this.btnUpdate.TabIndex = 9;
@@ -252,7 +252,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.78947F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.21053F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 279F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284F));
             this.tableLayoutPanel3.Controls.Add(this.btnCreate, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnRead, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 2, 0);
