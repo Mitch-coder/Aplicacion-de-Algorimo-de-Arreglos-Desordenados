@@ -46,19 +46,20 @@ namespace applicacionDeAlgoritmoUno
             this.textName = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnShow = new System.Windows.Forms.Button();
             this.dtgvRegister = new System.Windows.Forms.DataGridView();
             this.showId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.showAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnShow = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,7 +135,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnRead.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRead.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(253, 12);
+            this.btnRead.Location = new System.Drawing.Point(247, 12);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(115, 29);
             this.btnRead.TabIndex = 6;
@@ -146,7 +147,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDelete.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDelete.Location = new System.Drawing.Point(729, 12);
+            this.btnDelete.Location = new System.Drawing.Point(725, 12);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(124, 29);
             this.btnDelete.TabIndex = 7;
@@ -158,7 +159,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnCreate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCreate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCreate.Location = new System.Drawing.Point(39, 12);
+            this.btnCreate.Location = new System.Drawing.Point(37, 12);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(134, 29);
             this.btnCreate.TabIndex = 8;
@@ -170,7 +171,7 @@ namespace applicacionDeAlgoritmoUno
             // 
             this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdate.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(453, 12);
+            this.btnUpdate.Location = new System.Drawing.Point(445, 12);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(152, 29);
             this.btnUpdate.TabIndex = 9;
@@ -252,7 +253,7 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.78947F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.21053F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 292F));
             this.tableLayoutPanel3.Controls.Add(this.btnCreate, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnRead, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 2, 0);
@@ -267,7 +268,6 @@ namespace applicacionDeAlgoritmoUno
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.dtgvRegister);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
@@ -277,6 +277,29 @@ namespace applicacionDeAlgoritmoUno
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(995, 524);
             this.panel1.TabIndex = 19;
+            // 
+            // panel3
+            // 
+            this.panel3.AllowDrop = true;
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.btnShow);
+            this.panel3.Controls.Add(this.dtgvRegister);
+            this.panel3.Location = new System.Drawing.Point(0, 315);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(969, 468);
+            this.panel3.TabIndex = 19;
+            // 
+            // btnShow
+            // 
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnShow.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnShow.Location = new System.Drawing.Point(377, 14);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(277, 29);
+            this.btnShow.TabIndex = 10;
+            this.btnShow.Text = "Mostrar";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // dtgvRegister
             // 
@@ -288,11 +311,12 @@ namespace applicacionDeAlgoritmoUno
             this.showId,
             this.showName,
             this.showAge});
-            this.dtgvRegister.Location = new System.Drawing.Point(0, 367);
+            this.dtgvRegister.Location = new System.Drawing.Point(72, 49);
             this.dtgvRegister.Name = "dtgvRegister";
+            this.dtgvRegister.ReadOnly = true;
             this.dtgvRegister.RowHeadersWidth = 51;
-            this.dtgvRegister.RowTemplate.Height = 29;
-            this.dtgvRegister.Size = new System.Drawing.Size(995, 157);
+            this.dtgvRegister.RowTemplate.Height = 36;
+            this.dtgvRegister.Size = new System.Drawing.Size(856, 147);
             this.dtgvRegister.TabIndex = 20;
             // 
             // showId
@@ -300,39 +324,21 @@ namespace applicacionDeAlgoritmoUno
             this.showId.HeaderText = "Id";
             this.showId.MinimumWidth = 6;
             this.showId.Name = "showId";
+            this.showId.ReadOnly = true;
             // 
             // showName
             // 
             this.showName.HeaderText = "Nombre";
             this.showName.MinimumWidth = 6;
             this.showName.Name = "showName";
+            this.showName.ReadOnly = true;
             // 
             // showAge
             // 
             this.showAge.HeaderText = "Edad";
             this.showAge.MinimumWidth = 6;
             this.showAge.Name = "showAge";
-            // 
-            // panel3
-            // 
-            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel3.Controls.Add(this.btnShow);
-            this.panel3.Location = new System.Drawing.Point(35, 315);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(934, 32);
-            this.panel3.TabIndex = 19;
-            // 
-            // btnShow
-            // 
-            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnShow.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnShow.Location = new System.Drawing.Point(391, 2);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(152, 29);
-            this.btnShow.TabIndex = 10;
-            this.btnShow.Text = "Mostrar";
-            this.btnShow.UseVisualStyleBackColor = true;
-            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            this.showAge.ReadOnly = true;
             // 
             // panel2
             // 
@@ -353,12 +359,20 @@ namespace applicacionDeAlgoritmoUno
             this.lbTitle.TabIndex = 0;
             this.lbTitle.Text = "Ejemplos de Arreglos Desordenados";
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(684, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel1.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(995, 524);
+            this.ClientSize = new System.Drawing.Size(995, 536);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.MinimumSize = new System.Drawing.Size(1013, 571);
@@ -368,8 +382,8 @@ namespace applicacionDeAlgoritmoUno
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegister)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -400,6 +414,7 @@ namespace applicacionDeAlgoritmoUno
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.DataGridView dtgvRegister;
         private System.Windows.Forms.DataGridViewTextBoxColumn showId;
         private System.Windows.Forms.DataGridViewTextBoxColumn showName;

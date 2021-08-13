@@ -81,12 +81,10 @@ namespace applicacionDeAlgoritmoUno
         }
         private void btnShow_Click(object sender, EventArgs e)
         {
-            if (position<=0)
-                MessageBox.Show("El registro se encuentra vacio");
-            else
+            try
             {
                 dtgvRegister.Rows.Clear();
-                for (int i = 0; i < arrayPersona.Length; i++)
+                for (int i = 0; i < position; i++)
                 {
                     dtgvRegister.Rows.Add();
                     dtgvRegister.Rows[i].Cells[0].Value = arrayPersona[i].id;
@@ -94,6 +92,12 @@ namespace applicacionDeAlgoritmoUno
                     dtgvRegister.Rows[i].Cells[2].Value = arrayPersona[i].age;
                 }
             }
+            catch (Exception)
+            {
+                MessageBox.Show("El registro esta vacio");
+                throw;
+            }
+                
         }
         // funciones para validar espacio y buscar
         public void insert()
@@ -160,6 +164,15 @@ namespace applicacionDeAlgoritmoUno
         {
             //validacion id
             validateNumbers(textId.Text, "id");
+         
+                for (int i = 0; i < position; i++)
+                {
+                    int idTried = int.Parse(textId.Text);
+                    if (idTried == arrayPersona[i].id)
+                    {
+                        throw new Exception("Ya existe un usuario con ese id, intente otro");
+                    }
+                }
             //validacion de nombre
             if (string.IsNullOrWhiteSpace(name))
                 throw new Exception("El nombre es requerido!");
